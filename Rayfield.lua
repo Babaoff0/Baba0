@@ -1,5 +1,7 @@
+-- Charge la bibliothèque Rayfield
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
+-- Crée une fenêtre Rayfield
 local Window = Rayfield:CreateWindow({
     Name = "🌟 Script Hub - AutoFarm & PVP 🌟",
     LoadingTitle = "Chargement...",
